@@ -44,17 +44,13 @@ main{
     margin: 246px 57px 102px 121px;
 }
 
-.box-texts {
-  width: 493px;
-  flex: none;
-}
-
 .title-main{
     font-weight: 700;
     font-size: 62px;
     line-height: 82px;
     color: #161A49;
     margin-bottom: 47px;
+    width: 582px;
 }
 
 .paragraph-main{
@@ -63,7 +59,7 @@ main{
     line-height: 33px;
     color: #4B505A;
     margin-bottom: 55px;
-    width: 493px;
+    width: 475px;
 }
 
 .link-main{
@@ -84,10 +80,14 @@ main{
 
     main{
         flex-direction: column-reverse;
+        margin: 0;
+        align-items: center;
+        justify-content: center;
+        margin: 124px 39px 22px 39px;
     }
 
     .sing-up{
-        position: fixed;
+        position: absolute;
         top: 17px;
         right: 15px;
         width: 91px;
@@ -110,6 +110,11 @@ main{
     img{
         width: 312px;
         height: 288px;
+    }
+
+    .link-main{
+        justify-content: center;
+        display: flex;
     }
 
 }

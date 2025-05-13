@@ -42,6 +42,8 @@ main{
     display: flex;
     gap: 84px;
     margin: 246px 57px 102px 121px;
+    align-items: center;
+    justify-content: center;
 }
 
 

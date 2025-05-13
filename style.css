@@ -42,10 +42,12 @@ main{
     display: flex;
     gap: 84px;
     margin: 246px 57px 102px 121px;
-    align-items: center;
-    justify-content: center;
 }
 
+.box-texts {
+  width: 493px;
+  flex: none;
+}
 
 .title-main{
     font-weight: 700;
@@ -61,6 +63,7 @@ main{
     line-height: 33px;
     color: #4B505A;
     margin-bottom: 55px;
+    width: 493px;
 }
 
 .link-main{
@@ -72,4 +75,41 @@ main{
 .link-main:hover{
     color: #d39c26b0;
     transition: 0.3s;
+}
+
+@media screen and (max-width: 1040px) {
+    .navbar a{
+        display: none;
+    }
+
+    main{
+        flex-direction: column-reverse;
+    }
+
+    .sing-up{
+        position: fixed;
+        top: 17px;
+        right: 15px;
+        width: 91px;
+        height: 31px;
+    }
+
+    .title-main{
+        font-size: 30px;
+        line-height: 30px;
+        text-align: center;
+        width: 278px;
+    }
+
+    .paragraph-main{
+        letter-spacing: 0.5px;
+        text-align: center;
+        width: 304px;
+    }
+
+    img{
+        width: 312px;
+        height: 288px;
+    }
+
 }
